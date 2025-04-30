@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TensorFlow.js Example</title>
+  
+</head>
+<body>
+  <h1><strong>TensorFlow.js Example</strong></h1>
+  <p>Formula: y = 2x + 6</p>
+
+  <button onclick="entrenarModelo()">Entrenar Modelo</button>
+  <input type="number" id="inputX" value="4">
+  <button onclick="predecir()">Predecir</button>
+
+  <p id="resultado"></p>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.9.0/dist/tf.min.js"></script>
+<script src="js/modelo.js" defer></script>
+</html>
